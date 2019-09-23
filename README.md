@@ -4,15 +4,28 @@ by [Renaud Renaud](mailto:renaud.racinet@estiam.com)
 
 ## Start the project
 
-### Manually method
-Type this command bellow for launch the server
+Configure your `.env` file and ignore in your git !
+
+### Create database
+```
+php bin/console doctrine:database:create
+```
+
+### Launch the server
+
+By default the server's port has configured on 8000. 
+Below the instruction was based on this port. 
+
+#### Manually method
+Type this command bellow in your terminal, window command 
+or command prompt when you are in project's folder.
 ```
 php bin/console server:run
 ```
 
 You must use [this link](http://localhost:8000) or [that link](http://127.0.0.1:8000)
 
-### By a script command
+#### By a script command
 (Hello bootcamp ESTIAM October 2017 )
 
 On **Windows**
