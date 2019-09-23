@@ -7,7 +7,6 @@ use App\Entity\Questions;
 use App\Entity\Users;
 
 use Doctrine\Common\Persistence\ObjectManager;
-use Doctrine\ORM\EntityManagerInterface;
 
 use Symfony\Component\HttpFoundation\Response;
 
