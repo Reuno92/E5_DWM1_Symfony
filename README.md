@@ -13,12 +13,15 @@ php bin/console doctrine:database:create
 
 ### Launch the server
 
-By default the server's port has configured on 8000. 
-Below the instruction was based on this port. 
+By default the server's port has configured on 8000, 
+the following instructions was based on this port.
+
+If you want use another port, please udpate scripts' exec.
 
 #### Manually method
 Type this command bellow in your terminal, window command 
 or command prompt when you are in project's folder.
+
 ```
 php bin/console server:run
 ```
