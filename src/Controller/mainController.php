@@ -39,4 +39,8 @@ class mainController
     {
 
     }
+
+    /**
+     * @Route("")
+     */
 }
